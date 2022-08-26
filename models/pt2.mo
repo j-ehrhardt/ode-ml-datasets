@@ -1,5 +1,5 @@
 model pt2
-  Modelica.Blocks.Continuous.SecondOrder secondOrder(D = 4, w = 2)  annotation(
+  Modelica.Blocks.Continuous.SecondOrder secondOrder(D = 1, w = 1)  annotation(
     Placement(visible = true, transformation(origin = {0, 0}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Modelica.Blocks.Sources.Pulse pulse(amplitude = 1, period = 10, width = 50) annotation(
     Placement(visible = true, transformation(origin = {-52, 0}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
